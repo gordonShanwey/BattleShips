@@ -54,7 +54,7 @@ function fire(e: Event) {
 
             // increment hitCount each time a ship is hit
             GameBoard.hitCount++;
-            // this definitely shouldn't be hard-coded, but here it is anyway. lazy, simple solution:
+         
             if (GameBoard.hitCount == 13) {
                 alert("All enemy battleships have been defeated! You win!");
             }
